@@ -1,0 +1,47 @@
+{
+  "name": "phoenix-dialog-flow",
+  "version": "1.0.0",
+  "private": true,
+  "proxy": "",
+  "description": "Node application to integrate dialog flow with backend services on phoenix.edu",
+  "main": "app.js",
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/BishopCodes/phoenix-dialog-flow.git"
+  },
+  "keywords": [
+    "dialog",
+    "flow",
+    "phoenix.edu"
+  ],
+  "author": "Dale Bishop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/BishopCodes/phoenix-dialog-flow/issues"
+  },
+  "homepage": "https://gitlab.com/BishopCodes/phoenix-dialog-flow#README",
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^8.2.6",
+    "babel-preset-stage-1": "6.24.1",
+    "eslint": "5.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "local": "nodemon ./bin/www"
+  }
+}
